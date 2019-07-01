@@ -1,13 +1,10 @@
-import React, { Component } from "react";
-
-export class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello</h1>
-      </div>
-    );
-  }
+import React from "react";
+import SearchBar from "./SearchBar";
+import "./app.scss";
+export default function App() {
+  return (
+    <div className="ui container top-margin">
+      <SearchBar />
+    </div>
+  );
 }
-
-export default App;
